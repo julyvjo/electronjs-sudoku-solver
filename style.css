@@ -1,0 +1,53 @@
+body {
+    background-color: #16213E;
+    color: whitesmoke;
+}
+
+/*
+#0F3460
+#533483
+#E94560
+*/
+
+#board-container {
+    max-width: 500px;
+}
+
+.board {
+    width: 100%;
+}
+
+.board .box {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 1px;
+    padding: 0;
+    margin: 1px 1px 1px 1px;
+}
+
+.izq {
+    margin: 1px 1px 1px 8px !important; 
+}
+
+.der {
+    margin: 1px 8px 1px 1px !important;
+}
+
+.separador {
+    margin: 4px 1px 7px 4px;
+}
+
+input[type="text"] {
+    background: #533483;
+    border: none;
+    border-radius: 0;
+    color: whitesmoke;
+  }
+
+textarea {
+    background: #533483;
+}
+
+row {
+    align-items: center;
+}
